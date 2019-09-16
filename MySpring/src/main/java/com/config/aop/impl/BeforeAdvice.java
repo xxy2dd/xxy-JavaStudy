@@ -22,7 +22,7 @@ public class BeforeAdvice implements Advice{
     /**
      * 重写 InvocationHandler 接口中的invoke 方法
      * @param proxy 被代理的类的实例
-     * @param method 调用陪你过被代理的类的方法
+     * @param method 调用配置过被代理的类的方法
      * @param args 该方法需要的参数
      * @return
      * @throws Throwable
